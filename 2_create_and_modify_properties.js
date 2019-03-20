@@ -65,7 +65,7 @@
 // console.log(printer.on);
 // console.log(printer);
 
-//:::::::::::::::::::::passing Arguments::::::::::::::::::::
+//:::::::::::::::::::::passing Arguments::::::::::::::::::::::
 
 //::::::::::::passing primitive::::::::::::::
 
@@ -79,7 +79,7 @@
 
 // console.log(n);
 
-//::::::::::::passing object:::::::::::::::::
+//::::::::::::passing object::::::::::::::::::::
 
 // let originalObject = {
 //     favoriteColor: 'red'
