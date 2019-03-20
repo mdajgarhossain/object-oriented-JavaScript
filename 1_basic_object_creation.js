@@ -1,4 +1,4 @@
-//                                      :::Basic object creation:::
+//::::::::::::::::::::::::::::Basic object creation:::::::::::::::::::::::::::::
 
 // var obj = {};
 // var obj2 = new Object;
@@ -28,8 +28,7 @@
 //     },
 // };
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-//properties accessing with different notation:::
+//:::::::::::::properties accessing with different notation::::::::::
 // console.log(bicycle.color);
 // console.log(bicycle['color']);
 // console.log(bicycle.wheels);
@@ -63,8 +62,7 @@ book['price'] = 30;
 // console.log('$' + book.price);
 // console.log(book);
 
-//:::::::::::::::::::::::::::::::::::::::::::::::
-//object traverse:::
+//::::::::::::::::::::::object traverse::::::::::::::::::::::::
 
 for(var props in book) {
 

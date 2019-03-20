@@ -1,6 +1,6 @@
-//                               :::Create and modify properties:::
+//::::::::::::::::::::::::::::Create and modify properties::::::::::::::::::::::::
 
-//create and consider this object initially:::
+//::::::::::::::create and consider this object initially::::::::::::
 
 // const cat = {
 //     age: 2,
@@ -15,22 +15,19 @@
 
 // console.log(cat);
 
-// :::::::::::::::::::::::::::::::::::::::::::::::
-// modifying 'age' property:::
+//::::::::::::::::::::: modifying 'age' property:::::::::::::
 
 // cat.age += 1;
 // console.log(`age: ${cat.age}`);
 
-//:::::::::::::::::::::::::::::::::::::::::::::::
-// reassigning 'name' value:::
+//::::::::::::::::::::: reassigning 'name' value:::::::::::::
 
 // cat.name = 'Bambi';
 // console.log(cat.name);
 
 // console.log(cat);
 
-//:::::::::::::::::::::::::::::::::::::::::::::::
-//adding properties:::
+//:::::::::::::::::::::::adding properties:::::::::::::::::::
 
 // const printer = {};
 
@@ -50,8 +47,7 @@
 // console.log(printer);
 // printer.print();
 
-//::::::::::::::::::::::::::::::::::::::::::::::::
-//removing properties:::
+//:::::::::::::::::::removing properties:::::::::::::::::::
 
 // delete printer.mode;
 
@@ -69,9 +65,9 @@
 // console.log(printer.on);
 // console.log(printer);
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::
-//passing Arguments:::
-//:::::passing primitive:::::
+//:::::::::::::::::::::passing Arguments::::::::::::::::::::
+
+//::::::::::::passing primitive::::::::::::::
 
 // function changeToEight(n) {
 //     n = 8;
@@ -83,8 +79,7 @@
 
 // console.log(n);
 
-//:::::::::::::::::::::::::::::::::::::::::::::::::
-//passing object:::
+//::::::::::::passing object:::::::::::::::::
 
 // let originalObject = {
 //     favoriteColor: 'red'
@@ -113,8 +108,7 @@
 // console.log(iceCreamOriginal.hossain);
 // console.log(iceCreamOriginal);
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-//comparing object with another object:::
+//::::::::::::::::comparing object with another object::::::::::::::
 
 const parrot = {
     group: 'bird',
@@ -138,5 +132,3 @@ const myBird = parrot;
 console.log(myBird === parrot);
 
 console.log(myBird === pigeon);
-
-
