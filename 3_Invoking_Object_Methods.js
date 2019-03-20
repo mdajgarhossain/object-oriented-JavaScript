@@ -34,7 +34,7 @@
 // }
 // developer.favoriteLanguage('JavaScript'); 
 
-//:::::::::::Call Methods by Property Name (in this case 'named function')::::::::
+//:::Call Methods by Property Name (in this case 'named function not anonymous'):::
 // const greeter = {
 //     greet: function sayHello() {
 //         console.log('Hello! I love ReactJS');      
