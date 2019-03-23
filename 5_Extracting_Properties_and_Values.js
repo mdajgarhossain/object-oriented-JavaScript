@@ -1,6 +1,8 @@
 //:::::::::::::::::::::Extracting Properties and Values:::::::::::::::::::::::::::
 
-//:::::::::Object.keys() and Object.values()::::::::::::::
+//:::::::::::::::::::::::::Object Methods::::::::::::::::::::
+
+//:::::::::Object.keys() and Object.values():::::::::::
 const dictionary = {
     car: 'automobile',
     apple: 'healthy snack',
