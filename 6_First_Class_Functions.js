@@ -63,5 +63,5 @@ console.log(storeFunction());
 
 console.log(higherOrderFunction()());
 
-//:::::::::3.Functions can be passed as arguments from another function::::::
+//:::::::::3.Functions can be passed as arguments into another function::::::
 //:::Go to next section  >>>>>>>>
