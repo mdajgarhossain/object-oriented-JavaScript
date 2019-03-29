@@ -53,15 +53,23 @@
 
 //::::::::::::::map() method::::::::::::::
 
-const names = ['Jewell', 'Karim', 'Rahim'];
+// const names = ['Jewell', 'Karim', 'Rahim'];
 
 // names.map(function(name) {
 //     console.log(`My name is ${name}.`);
 // });
 
-const nameLengths = names.map(function(name) {
-    return name.length;
+// const nameLengths = names.map(function(name) {
+//     return name.length;
+// });
+// console.log(nameLengths);
+
+
+//:::::::::::::::filter() method::::::::::::::
+
+const names = ['Jewell', 'Karim', 'Rahim'];
+
+const shortNames = names.filter(function(name) {
+    return name.length < 6;
 });
-console.log(nameLengths);
-
-
+console.log(shortNames);
