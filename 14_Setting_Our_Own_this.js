@@ -248,3 +248,28 @@ driverName();
 
 /***NOTE: bind() returns a new function with 'this' bound to a specific object, allowing us to call it as a regular function. */
 
+
+//::::::::::call(), apply() and bind() all in action::::::::::::::::::::
+
+function add(a, b) {
+    return (a + b) * this.value;
+}
+
+const obj1 = {
+    value: 5
+};
+
+const obj2 = {
+    value: 7
+};
+
+const result = add.call(obj1, 2, 3);  //call() method
+console.log(result);
+
+const result2 = add.apply(obj2, [2, 3]);  //apply() method
+console.log(result2);
+
+const result3 = add.bind(obj1);  //bind() method
+console.log(result3(2, 3));
+
+
